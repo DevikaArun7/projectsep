@@ -18,4 +18,13 @@ void main(){
 
   var que2 =Queue.of(add);
   print(que2);
+
+  que2.forEach((element) {
+    print(element);
+  });
+
+  for(int i=0;i<que2.length;i++){
+    print(que2.elementAt(i));
+  }
+
 }
