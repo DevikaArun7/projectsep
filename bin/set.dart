@@ -7,5 +7,5 @@ void main(){
   print('set1=$set2');
   print('union=${set1.union(set2)}');
   print('inter=${set1.intersection(set2)}');
-  print('diff=${set2.difference(set1)}');
+  print('diff=${set2 .difference(set1)}');
 }
