@@ -6,7 +6,7 @@ class Apple{
     print('i have $num apples');
   }
   Apple.two(String name,int num){
-    print('$name has $name apple');
+    print('$name has $num apple');
   }
 }
 void main(){
